@@ -1,0 +1,21 @@
+{
+  "name": "tualo/pug-printable-page",
+  "description": "tualo - pug-printable-page - pug meta package for printable pages",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Thomas Hoffmann",
+      "email": "thomas.hoffmann@tualo.de"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Tualo\\Office\\PugPrintablePage\\": "src/"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  },
+  "minimum-stability": "dev"
+}
