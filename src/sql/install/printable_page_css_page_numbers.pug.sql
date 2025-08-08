@@ -1,6 +1,6 @@
 DELIMITER ;
 SET FOREIGN_KEY_CHECKS=0;
-insert ignore into ds_pug_templates (name,id,note,template) values ('printable_page_css_page_numbers','printable_page_css_page_numbers',from_base64('cHJpbnRhYmxlX3BhZ2VfY3NzX3BhZ2VfbnVtYmVycw=='),from_base64( 'c3R5bGUuCiAgICBAcGFnZSB7CiAgICAgICAgQGJvdHRvbS1yaWdodCB7CiAgICAgICAgICAgIG1h
+replace into ds_pug_templates (name,id,note,template) values ('printable_page_css_page_numbers','printable_page_css_page_numbers',from_base64('cHJpbnRhYmxlX3BhZ2VfY3NzX3BhZ2VfbnVtYmVycw=='),from_base64( 'c3R5bGUuCiAgICBAcGFnZSB7CiAgICAgICAgQGJvdHRvbS1yaWdodCB7CiAgICAgICAgICAgIG1h
 cmdpbi1yaWdodDogMS41Y207CiAgICAgICAgICAgIGNvbnRlbnQ6ICdTZWl0ZSAnIGNvdW50ZXIo
 cGFnZSkgJyB2b24gJyBjb3VudGVyKHBhZ2VzKTsKICAgICAgICB9CiAgICB9') );
 
